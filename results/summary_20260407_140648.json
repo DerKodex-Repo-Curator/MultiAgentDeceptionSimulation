@@ -1,0 +1,43 @@
+{
+  "timestamp": "20260407_140648",
+  "comm_mode": "clue_and_statement",
+  "num_players": 8,
+  "num_simulations": 100,
+  "results": {
+    "spy": 47,
+    "civilian": 53
+  },
+  "avg_rounds": 4.86,
+  "win_rates": {
+    "spy": 0.47,
+    "civilian": 0.53
+  },
+  "aggregated_metrics": {
+    "overall_accuracy": 0.2611,
+    "avg_spy_survival_time": 3.06,
+    "avg_spy_elimination_round": 3.18,
+    "spy_catch_rate": 0.67,
+    "personality_vote_accuracy": {
+      "aggressive": {
+        "correct": 226,
+        "total": 901,
+        "accuracy": 0.2508
+      },
+      "conservative": {
+        "correct": 207,
+        "total": 891,
+        "accuracy": 0.2323
+      },
+      "deceptive": {
+        "correct": 259,
+        "total": 913,
+        "accuracy": 0.2837
+      }
+    },
+    "personality_survival_rate": {
+      "aggressive": 0.3467,
+      "conservative": 0.391,
+      "deceptive": 0.4423
+    }
+  }
+}

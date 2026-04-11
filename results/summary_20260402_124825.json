@@ -1,0 +1,21 @@
+{
+  "timestamp": "20260402_124825",
+  "comm_mode": "clue_and_statement",
+  "num_players": 8,
+  "num_simulations": 50,
+  "results": {
+    "spy": 21,
+    "civilian": 29
+  },
+  "avg_rounds": 5.04,
+  "win_rates": {
+    "spy": 0.42,
+    "civilian": 0.58
+  },
+  "aggregated_metrics": {
+    "overall_accuracy": 0.2724,
+    "avg_spy_survival_time": 3.01,
+    "avg_spy_elimination_round": 3.23,
+    "spy_catch_rate": 0.74
+  }
+}
